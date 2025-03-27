@@ -1,5 +1,5 @@
-let js = "amazing";
-if (js === "amazing") alert("javascript is fun!");
+// let js = "amazing";
+// if (js === "amazing") alert("javascript is fun!");
 
 // console.log(40 + 8 + 23 - 10);
 
@@ -64,12 +64,46 @@ if (js === "amazing") alert("javascript is fun!");
 // hiii
 //  whasup`);
 
-const age = 15;
-const isOldEnough = age >= 18;
+// const age = 15;
+// const isOldEnough = age >= 18;
 
-if (isOldEnough) {
-  console.log("sara can start driving leasons 👌");
-} else {
-  const yearsleft = 18 - age;
-  console.log(`sara is too younge, wait ${yearsleft} years`);
-}
+// if (isOldEnough) {
+//   console.log("sara can start driving leasons 👌");
+// } else {
+//   const yearsleft = 18 - age;
+//   console.log(`sara is too younge, wait ${yearsleft} years`);
+// }
+
+// const birthyear = 1991;
+// let centuary;
+
+// if (birthyear <= 2000) {
+//   centuary = 20;
+// } else {
+//   centuary = 21;
+// }
+
+// console.log(centuary);
+
+// // code challange 2
+
+// if (markSecondBMI > johnsSecondBMI) {
+//   console.log(
+//     `marks BMI ${markSecondBMI} is higher than johns ${johnsSecondBMI} BMI`
+//   );
+// } else {
+//   console.log(
+//     `johns BMI ${johnsSecondBMI} is higher than mark ${markSecondBMI} BMI`
+//   );
+// }
+
+// type conversion and coercion
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(inputYear + 18);
+console.log(String(23));
+
+// type coercion
+console.log("23" - "10" - 3);
+console.log("23" / " 2");
+console.log(" 23" > " 18"start);
