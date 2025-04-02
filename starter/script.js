@@ -98,12 +98,102 @@
 // }
 
 // type conversion and coercion
-const inputYear = "1991";
-console.log(Number(inputYear));
-console.log(inputYear + 18);
-console.log(String(23));
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(inputYear + 18);
+// console.log(String(23));
 
-// type coercion
-console.log("23" - "10" - 3);
-console.log("23" / " 2");
-console.log(" 23" > " 18"start);
+// // type coercion
+// console.log("23" - "10" - 3);
+// console.log("23" / " 2");
+// console.log(" 23" > " 18"start);
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("jonas"));
+// console.log(Boolean({}));
+
+// const money = 0;
+// if (money) {
+//   console.log("dont spend any money ");
+// } else {
+//   console.log(" you sh ould get a job ");
+// }
+
+// const age = "18";
+// if (age === 18) {
+//   console.log("up to an adult");
+// }
+// if (age == 18) {
+//   console.log("up to an adult losse");
+// }
+// const favorite = Number(prompt(" whats your favorite number"));
+// console.log(favorite);
+
+// if (favorite == 23) {
+//   console.log("cool 23 is an amazing number");
+// }
+// if (favorite == 23) {
+//   console.log("cool 23 is an amazing number");
+// } else if (favorite == 7) {
+//   7;
+//   console.log("  is also a good age");
+// } else {
+//   console.log("age not recognised");
+// }
+
+// const hasDriversLicence = true;
+// const hasGoodVision = true;
+// const isTired = false;
+
+// console.log(hasDriversLicence && hasGoodVision && isTired);
+// console.log(hasDriversLicence || hasGoodVision) || isTired;
+// console.log(hasDriversLicence || !hasGoodVision);
+// console.log(!hasDriversLicence || hasGoodVision);
+
+// const shouldDrive = hasDriversLicence && hasGoodVision;
+// if (hasDriversLicence && hasGoodVision && isTired) {
+//   console.log("sara should be able to drive");
+// } else {
+//   console.log("someone else should drive");
+// }
+//
+
+// code challange
+// // dolphins and koalas
+// const dolphineFirstTest = (96 + 108 + 89) / 3;
+// const koalasFirstTest = (88 + 91 + 110) / 3;
+// console.log(dolphineFirstTest, koalasFirstTest);
+
+// if (dolphineFirstTest > koalasFirstTest) {
+//   console.log("dolphins are higher ");
+// } else if (koalasFirstTest > dolphineFirstTest) {
+//   console.log("kolas is higher ");
+// } else if (koalasFirstTest === dolphineFirstTest) {
+//   console.log("both win ");
+// } else {
+//   console.log("none ");
+// }
+
+// // Bonus 1
+// const dolphineSecondTest = (97 + 112 + 101) / 3;
+// const koalassecondTest = (109 + 95 + 123) / 3;
+// const requiredScore = 100;
+
+// if (
+//   dolphineSecondTest > koalassecondTest &&
+//   dolphineSecondTest >= requiredScore
+// ) {
+//   console.log("dolphine beat koalas and have over a hundred point");
+// } else if (
+//   koalassecondTest > dolphineSecondTest &&
+//   koalassecondTest >= requiredScore
+// ) {
+//   console.log("koalas beat dolphine and have over a hundred points");
+// }
+// console.log(dolphineSecondTest);
+// console.log(koalassecondTest);
+
+// // bonus 2
+// const koalaThirdTest = (109 + 95 + 106) / 3;
+// const dolphineThirdTest = (97 + 112 + 101) / 3;
+// console.log(koalaThirdTest, dolphineThirdTest);
