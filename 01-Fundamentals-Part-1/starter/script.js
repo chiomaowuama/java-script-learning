@@ -197,3 +197,60 @@
 // const koalaThirdTest = (109 + 95 + 106) / 3;
 // const dolphineThirdTest = (97 + 112 + 101) / 3;
 // console.log(koalaThirdTest, dolphineThirdTest);
+
+const day = "fri  day";
+// switch (day) {
+//   case " monday":
+//     console.log("play couse structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case " tuesday":
+//     console.log("prepare theory video");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("prepare the code examples");
+//     break;
+//   case " friday":
+//     console.log("record videos");
+//     break;
+//   case "satuarday":
+//   case "sunday":
+//     console.log("enjoy the weekend");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
+
+// if (day === "monday") {
+//   console.log("play couse structure");
+//   console.log("Go to coding meetup");
+// } else if (day === "tuesday") {
+//   console.log("prepare theory video");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("prepare the code examples");
+// } else if (day === "friday") {
+//   console.log("record videos");
+// } else if (day === "satuarday" || day === " sunday") {
+//   console.log("enjoy the weekend");
+// } else {
+//   console.log("not a valid day");
+// }
+
+// const age = 23;
+// age >= 18
+//   ? console.log("i like to drink wine")
+//   : console.log("i like to drink water");
+// const drink = age >= 18 ? "wine" : "water";
+// console.log(drink);
+
+// code challange
+// test 1
+
+const bill = 430;
+const smallTip = (15 / 100) * bill;
+const bigTip = (20 / 100) * bill;
+const tips = bill >= 50 && bill <= 300 ? smallTip : bigTip;
+console.log(
+  `The bill is ${bill}, The tip is ${tips}, Total value is ${bill + tips}`
+);
